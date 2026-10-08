@@ -14,7 +14,7 @@ class Capm < Formula
   end
 
   def install
-    bin.install "capm"
+    bin.install "capm-macos" => "capm"
   end
 
   test do
